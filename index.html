@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Constitution Gardens · Washington, DC</title>
+<style>
+:root{--bg:#f6f3ea;--surface:#ffffff;--ink:#1f2a24;--muted:#56645c;--green:#2f6b4a;--green-d:#1d4a33;--water:#3f7f9c;--accent:#b4582f;--line:#dcd6c4;--hero1:#1d4a33;--hero2:#3f7f9c;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a15;--surface:#1b261f;--ink:#ecefe8;--muted:#a3b0a7;--green:#6fbf93;--green-d:#8fd3ae;--water:#7db8d3;--accent:#e08a5e;--line:#2c3a31;--hero1:#0f2a1c;--hero2:#1f4a5e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121a15;--surface:#1b261f;--ink:#ecefe8;--muted:#a3b0a7;--green:#6fbf93;--green-d:#8fd3ae;--water:#7db8d3;--accent:#e08a5e;--line:#2c3a31;--hero1:#0f2a1c;--hero2:#1f4a5e;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif}
+a{color:inherit}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:1.2rem;justify-content:center;flex-wrap:wrap;padding:.7rem 1rem;font:600 .85rem/1 system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--green)}
+.hero{background:linear-gradient(160deg,var(--hero1),var(--hero2));color:#fff;text-align:center;padding:5rem 1.2rem 5.5rem}
+.hero small{font:600 .8rem system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;opacity:.85}
+.hero h1{font-size:clamp(2.4rem,8vw,4.6rem);line-height:1.05;margin:.6rem 0 1rem;font-weight:700}
+.hero p{max-width:34rem;margin:0 auto 1.8rem;font-size:1.15rem;opacity:.95}
+.btn{display:inline-block;background:#fff;color:#1d4a33;padding:.8rem 1.5rem;border-radius:999px;font:600 .95rem system-ui,sans-serif;text-decoration:none}
+section{max-width:60rem;margin:0 auto;padding:3.5rem 1.2rem}
+h2{font-size:1.9rem;margin:0 0 .4rem;color:var(--green-d)}
+.lead{color:var(--muted);margin:0 0 2rem;max-width:40rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.3rem}
+.card h3{margin:.2rem 0 .4rem;font-size:1.15rem;color:var(--green-d)}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.ico{font-size:1.6rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:1rem;text-align:center;margin-bottom:2.2rem}
+.stats div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem}
+.stats b{display:block;font-size:1.7rem;color:var(--accent)}
+.stats span{font:.8rem system-ui,sans-serif;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.timeline{border-left:3px solid var(--green);margin:0;padding:0 0 0 1.3rem;list-style:none}
+.timeline li{margin-bottom:1.3rem;position:relative}
+.timeline li::before{content:"";position:absolute;left:-1.78rem;top:.55rem;width:.75rem;height:.75rem;border-radius:50%;background:var(--accent)}
+.timeline b{color:var(--green-d)}
+.map{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem;overflow-x:auto}
+.map svg{width:100%;min-width:30rem;height:auto;display:block}
+.visit{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1rem}
+dl{margin:0}dt{font:700 .8rem system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-top:.9rem}dt:first-child{margin-top:0}dd{margin:.15rem 0 0}
+footer{text-align:center;color:var(--muted);font:.85rem/1.6 system-ui,sans-serif;padding:2.5rem 1.2rem calc(2.5rem + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<nav><a href="#about">About</a><a href="#see">See &amp; Do</a><a href="#map">Map</a><a href="#history">History</a><a href="#visit">Visit</a></nav>
+
+<header class="hero">
+<small>National Mall · Washington, DC</small>
+<h1>Constitution Gardens</h1>
+<p>Fifty tranquil acres of shade trees, winding paths and a quiet lake, tucked between the Vietnam Veterans Memorial and the World War II Memorial.</p>
+<a class="btn" href="#visit">Plan your visit</a>
+</header>
+
+<section id="about">
+<h2>A quiet green room on the Mall</h2>
+<p class="lead">Constitution Gardens is a landscaped park on the north side of the Reflecting Pool, a calm contrast to the monuments around it. It is part of National Mall and Memorial Parks, managed by the National Park Service.</p>
+<div class="stats">
+<div><b>50</b><span>Acres</span></div>
+<div><b>1976</b><span>Opened</span></div>
+<div><b>6.75</b><span>Acre lake</span></div>
+<div><b>Free</b><span>Admission</span></div>
+</div>
+</section>
+
+<section id="see" style="padding-top:0">
+<h2>Things to see &amp; do</h2>
+<p class="lead">Wander, picnic, read or simply sit by the water.</p>
+<div class="grid">
+<div class="card"><div class="ico">🏛️</div><h3>Signers Memorial</h3><p>On a small island in the lake, the Memorial to the 56 Signers of the Declaration of Independence displays each signer’s name and signature in granite.</p></div>
+<div class="card"><div class="ico">🦆</div><h3>The Lake</h3><p>A 6.75-acre lake with a curving shoreline and a half-acre island. Ducks and geese gather here, and the Washington Monument reflects in the water.</p></div>
+<div class="card"><div class="ico">🌳</div><h3>Shaded Paths</h3><p>Winding walks pass under mature trees, with benches and lawns for resting between memorial visits.</p></div>
+<div class="card"><div class="ico">🧺</div><h3>Picnics &amp; Pauses</h3><p>Open lawns and lakeside seating make an easy lunch stop during a day of sightseeing.</p></div>
+<div class="card"><div class="ico">🚶</div><h3>Walking Route</h3><p>Connects naturally to the Vietnam Veterans Memorial, Lincoln Memorial and the Washington Monument grounds.</p></div>
+<div class="card"><div class="ico">📷</div><h3>Photography</h3><p>Early morning and golden hour bring soft light, reflections and fewer crowds.</p></div>
+</div>
+</section>
+
+<section id="map" style="padding-top:0">
+<h2>Where it sits</h2>
+<p class="lead">A simplified sketch of the park and its neighbors (not to scale).</p>
+<div class="map">
+<svg viewBox="0 0 700 300" role="img" aria-label="Simplified map of Constitution Gardens and nearby landmarks">
+<rect x="0" y="0" width="700" height="300" rx="10" fill="var(--bg)"/>
+<rect x="30" y="30" width="640" height="26" rx="4" fill="var(--line)"/>
+<text x="350" y="48" text-anchor="middle" font-size="13" fill="var(--muted)" font-family="system-ui">Constitution Avenue NW</text>
+<rect x="150" y="70" width="400" height="140" rx="16" fill="var(--green)" opacity=".28"/>
+<ellipse cx="350" cy="140" rx="110" ry="42" fill="var(--water)" opacity=".8"/>
+<circle cx="350" cy="140" r="10" fill="var(--accent)"/>
+<text x="350" y="100" text-anchor="middle" font-size="14" font-weight="700" fill="var(--green-d)" font-family="system-ui">Constitution Gardens</text>
+<text x="350" y="182" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui">Lake · Signers Memorial island</text>
+<rect x="30" y="100" width="90" height="70" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+<text x="75" y="130" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui">Lincoln</text><text x="75" y="147" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui">Memorial</text>
+<rect x="580" y="100" width="90" height="70" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+<text x="625" y="130" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui">Washington</text><text x="625" y="147" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui">Monument</text>
+<rect x="190" y="225" width="120" height="30" rx="6" fill="var(--surface)" stroke="var(--line)"/>
+<text x="250" y="245" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui">Vietnam Veterans Mem.</text>
+<rect x="150" y="262" width="400" height="22" rx="11" fill="var(--water)" opacity=".5"/>
+<text x="350" y="277" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui">Reflecting Pool</text>
+</svg>
+</div>
+</section>
+
+<section id="history" style="padding-top:0">
+<h2>A short history</h2>
+<p class="lead">Built as part of the nation’s Bicentennial celebrations.</p>
+<ul class="timeline">
+<li><b>Late 19th century</b> — The park’s 50 acres were originally beneath the Potomac River, before the riverfront was reclaimed as land.</li>
+<li><b>1930s–1940s</b> — A flood-control levee was built along the park’s south edge, shaping the site visitors see today.</li>
+<li><b>May 1976</b> — Constitution Gardens was dedicated during the Bicentennial. It has been a separate park unit since 1982.</li>
+<li><b>1984</b> — The Memorial to the 56 Signers of the Declaration of Independence was dedicated on the lake island.</li>
+<li><b>2023</b> — The Trust for the National Mall awarded Phase II of the gardens’ rehabilitation, improving soil, drainage and plantings.</li>
+</ul>
+</section>
+
+<section id="visit" style="padding-top:0">
+<h2>Plan your visit</h2>
+<p class="lead">Check the National Park Service site for current conditions, closures and events before you go.</p>
+<div class="visit">
+<div class="card"><dl>
+<dt>Location</dt><dd>South side of Constitution Ave NW, between 17th St NW and Henry Bacon Dr NW, Washington, DC</dd>
+<dt>Hours</dt><dd>Open 24 hours. Restrooms are near the southwest corner of the lake; their hours vary.</dd>
+<dt>Cost</dt><dd>Free</dd>
+<dt>Information</dt><dd>National Mall and Memorial Parks: (202) 426-6841 · nps.gov/nama</dd>
+</dl></div>
+<div class="card"><dl>
+<dt>Getting there</dt><dd>Walk from the Smithsonian or Foggy Bottom–GWU Metro stations (Blue/Orange/Silver lines), or take the DC Circulator.</dd>
+<dt>Parking</dt><dd>Very limited near the Mall; public transit or walking is easiest.</dd>
+<dt>Good to know</dt><dd>Bring water and sun protection in summer. Paths are mostly paved and level.</dd>
+</dl></div>
+</div>
+</section>
+
+<footer>
+Constitution Gardens is part of National Mall and Memorial Parks, National Park Service.<br>
+Unofficial informational page. Facts reviewed against NPS and Trust for the National Mall pages; verify current conditions at nps.gov/nama.
+</footer>
+</body>
+</html>
